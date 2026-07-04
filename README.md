@@ -1,164 +1,178 @@
-# Codebase Knowledge Extractor (LLM-powered)
+# spring-rest-sakila
 
-A program that reads a codebase, feeds it to an LLM in token-safe chunks,
-and produces a structured JSON representation of the extracted knowledge:
-project purpose, architecture, and per-file breakdowns of responsibilities,
-key methods, and complexity.
+Sakila REST API Service (Sample Project)
 
-Built and tested against the target codebase for this assignment:
-[`codejsha/spring-rest-sakila`](https://github.com/codejsha/spring-rest-sakila)
-(a Spring Boot REST API over the Sakila sample database).
+![Gradle Build](https://github.com/codejsha/spring-rest-sakila/actions/workflows/gradle.yml/badge.svg)
 
-## Approach
+[English](README.md) | [Korean](README_ko-KR.md)
 
-The pipeline is a **map-reduce over the codebase**, chosen specifically to
-respect LLM token limits without sacrificing a project-level understanding:
+This REST API service provides access to the [Sakila database](https://dev.mysql.com/doc/sakila/en/), which is a sample database provided by MySQL for learning and testing purposes. The Sakila database models a DVD rental store company, includes data about films, actors, customers, rentals, and more.
 
-```
-load files -> build token-bounded chunks -> [MAP] per-chunk LLM extraction -> [REDUCE] LLM synthesis of overview -> JSON
-```
+This service provides a simple way to perform CRUD(Create, Read, Update, Delete) operations on the Sakila database. It also provides endpoints to perform more complex queries.
 
-1. **Load** (`src/loader.py`) — walks the repo, collecting `.java`/`.kt`
-   source files and skipping build artifacts (`build/`, `.git/`,
-   `.gradle/`, etc.). Kept dependency-free and unit-testable on its own.
+Microservices version is go to: https://github.com/codejsha/sakila-microservices
 
-2. **Chunk** (`src/chunker.py`) — counts tokens per file (via `tiktoken`'s
-   `cl100k_base` encoding, used as a practical proxy since Anthropic does
-   not publish a local tokenizer — see *Assumptions* below) and greedily
-   packs whole files together up to a configurable `max_tokens_per_chunk`
-   (default 6000). Any single file that alone exceeds the budget is split
-   further using LangChain's `RecursiveCharacterTextSplitter.from_language(Language.JAVA)`,
-   which prefers breaking on class/method boundaries over arbitrary line
-   cuts, falling back to a hard token-level split as a safety net.
+## Table of Contents
 
-3. **Extract (MAP)** (`src/llm_client.py`, `AnthropicExtractor`) — each
-   chunk is sent to Claude via **LangChain's `ChatAnthropic`** chat model
-   using `.with_structured_output(ChunkAnalysis)`. This binds the model's
-   response to our Pydantic schema (`src/schema.py`) directly, so every
-   response is already-validated, consistent JSON — no manual regex/JSON
-   parsing of free-text LLM output.
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Libraries and Plugins](#libraries-and-plugins)
+  - [External MySQL database](#external-mysql-database)
+- [Installation](#installation)
+  - [Clone Repository](#clone-repository)
+  - [Configure Database Connection Settings](#configure-database-connection-settings)
+  - [Configure Application Settings](#configure-application-settings)
+  - [Build Project](#build-project)
+  - [Run Application](#run-application)
+- [API Documentation](#api-documentation)
+  - [Endpoints](#endpoints)
+  - [References](#references)
+  - [OpenAPI/Swagger](#openapiswagger)
+  - [Postman](#postman)
+- [Observability](#observability)
+- [Sample Data](#sample-data)
 
-4. **Synthesize (REDUCE)** (`src/analyzer.py`) — the (much smaller) list of
-   per-file responsibility summaries from step 3 is combined into one
-   prompt and sent for a **second** LLM call that produces the project-level
-   overview (purpose, architecture, key modules, technologies). This keeps
-   the "big picture" call small regardless of how large the codebase is,
-   since it only ever sees condensed summaries, never raw source.
+## Getting Started
 
-5. **Output** (`main.py`) — the final `CodebaseKnowledge` object (overview +
-   all per-file analyses + run metadata) is serialized to a single JSON file.
+### Requirements
 
-## Project layout
+- Java 17
+- Gradle 7
+- MySQL 8
 
-```
-codebase-analyzer/
-├── main.py                 # CLI entrypoint
-├── requirements.txt
-├── .env.example
-├── src/
-│   ├── loader.py            # walk repo -> List[SourceFile]
-│   ├── chunker.py            # token-aware chunking/splitting
-│   ├── schema.py            # Pydantic output schema
-│   ├── llm_client.py         # LangChain/Anthropic extractor + offline MockExtractor
-│   └── analyzer.py          # map-reduce orchestration
-├── tests/
-│   └── test_pipeline.py      # unit tests for loader + chunker (no network/LLM needed)
-└── output/
-    └── analysis.json         # sample structured output (see note below)
-```
+### Libraries and Plugins
 
-## Running it
+For a complete list, see the `gradle/libs.versions.toml` file.
+
+- Spring Boot Web
+- Spring Data JPA
+- Spring HATEOAS
+- Spring REST Docs
+- Lombok
+- Querydsl
+- MapStruct
+
+### External MySQL database
+
+An external MySQL database is required to run the application. The external database can be run as a [MySQL docker](https://hub.docker.com/_/mysql) container or as on-premises process ([MySQL Community Downloads](https://dev.mysql.com/downloads/)). After installation, follow the [Sakila database](https://dev.mysql.com/doc/sakila/en/) official guide to create the database structure and populate the data. See the link for examples of configuring your environment: https://github.com/codejsha/infrastructure-examples/tree/main/mysql
+
+## Installation
+
+### Clone Repository
 
 ```bash
-pip install -r requirements.txt
-
-# Real run (requires an Anthropic API key)
-export ANTHROPIC_API_KEY=sk-ant-...
-python main.py --repo-path /path/to/spring-rest-sakila --output output/analysis.json
-
-# Offline smoke test / demo of the pipeline mechanics, no API key needed
-python main.py --repo-path /path/to/spring-rest-sakila --mock --output output/analysis_mock.json
-
-# Unit tests (no network/API key needed)
-python -m pytest tests/ -v
+# GitHub CLI
+gh repo clone codejsha/spring-rest-sakila
+# Git CLI
+git clone https://github.com/codejsha/spring-rest-sakila.git
 ```
 
-Useful flags: `--model` (default `claude-sonnet-4-6`), `--max-tokens-per-chunk`
-(default `6000`), `--limit-chunks N` (process only the first N chunks, handy
-for a quick smoke test on a large repo), `-v` for debug logging.
+### Configure Database Connection Settings
 
-## Output schema
+Before you can use the Sakila REST API Service, you need to configure the database connection settings. The database connection settings are defined in the `application.yaml` file. The default settings are as follows:
 
-```jsonc
-{
-  "project_overview": {
-    "purpose": "...",
-    "architecture_summary": "...",
-    "key_modules": ["..."],
-    "notable_technologies": ["..."]
-  },
-  "files": [
-    {
-      "file_path": "src/main/java/.../FilmController.java",
-      "package": "com.example.app.services.catalog.controller",
-      "class_names": ["FilmController"],
-      "responsibility": "...",
-      "key_methods": [
-        {"name": "getFilm", "signature": "ResponseEntity<FilmDto> getFilm(Long id)", "description": "..."}
-      ],
-      "complexity": "Low | Medium | High",
-      "complexity_notes": "..."
-    }
-  ],
-  "metadata": {
-    "model": "claude-sonnet-4-6",
-    "source_repo_path": "...",
-    "num_source_files": 202,
-    "num_chunks": 20,
-    "max_tokens_per_chunk": 6000,
-    "generated_at_utc": "..."
-  }
+```yaml
+# application.yaml
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sakila
+    username: sakila
+    password: sakila
+```
+
+### Configure Application Settings
+
+The default URL settings for the application API endpoint are as follows:
+
+```yaml
+# application.yaml
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+...
+
+app:
+  uri:
+    scheme: http
+    host: localhost
+    port: ${server.port}
+```
+
+```kotlin
+// build.gradle.kts
+openapi3 {
+    this.setServer("http://localhost:8080/api/v1")
+    // ...
+}
+
+postman {
+    baseUrl = "http://localhost:8080/api/v1"
+    // ...
 }
 ```
 
-## Best practices applied
+### Build Project
 
-- **Token-safety by construction**, not by hoping the model tolerates a big
-  prompt: chunk sizes are computed from actual token counts, and any file
-  large enough to blow the budget alone is split before it's ever sent.
-- **Schema-first extraction** via `with_structured_output`, so the model's
-  output is validated JSON, not free text that needs post-hoc parsing.
-- **Map-reduce**, so the approach scales to codebases much larger than a
-  single context window — the reduce step only ever processes condensed
-  summaries.
-- **Deterministic runs**: files are processed in sorted path order, and
-  `temperature=0.0` for the real LLM calls, so re-running on the same repo
-  produces closely comparable output.
-- **Testable without a paid API key**: `loader`/`chunker` are pure Python
-  with unit tests, and a `MockExtractor` lets you exercise the entire
-  pipeline (including JSON I/O) offline via `--mock`.
-- **Retry with backoff** around LLM calls for transient API/network errors.
+```bash
+cd spring-rest-sakila
+bash ./gradlew build
+```
 
-## Assumptions & limitations
+### Run Application
 
-- **Language scope**: only `.java`/`.kt` files are analyzed (configurable
-  in `loader.py`). Build files, SQL, YAML config, and docs are intentionally
-  out of scope for this assignment's "code comprehension" goal.
-- **Token counting is an approximation.** Anthropic does not publish a
-  local tokenizer, so `tiktoken`'s `cl100k_base` (OpenAI's encoding) is used
-  as a practical, widely-used proxy. It tends to over-count relative to
-  Claude's actual tokenizer, which errs safely (chunks end up smaller than
-  strictly necessary rather than risking an overflow).
-- **Cost/latency**: one real run over the full ~200-file Sakila codebase
-  makes ~21 LLM calls (20 extraction chunks + 1 overview synthesis) at the
-  default 6000-token chunk size.
-- **`output/analysis.json` in this deliverable was generated with `--mock`**
-  (no LLM calls), so its `responsibility`/`key_methods`/`complexity_notes`
-  fields are clearly-labeled placeholders — it exists to prove the full
-  pipeline (loading → chunking → extraction interface → aggregation → JSON
-  writing) runs end-to-end and produces schema-valid output. Running the
-  same command without `--mock` and with a valid `ANTHROPIC_API_KEY`
-  produces the real analysis in the identical shape.
-- **No incremental/caching support**: each run re-analyzes every file; a
-  production version would hash file contents and skip unchanged files on
-  subsequent runs.
+```bash
+bash ./gradlew bootRun
+```
+
+## API Documentation
+
+### Endpoints
+
+The Sakila REST API Service exposes the following some endpoints. Each endpoint supports CRUD operations.
+
+- Actors: `/api/v1/actors`
+- Customers: `/api/v1/customers`
+- Films: `/api/v1/films`
+- Payments: `/api/v1/payments`
+- Rentals: `/api/v1/rentals`
+- Reports: `/api/v1/reports`
+- Staffs: `/api/v1/staffs`
+- Stores: `/api/v1/stores`
+
+### References
+
+API references are generated by Asciidoctor in Spring REST Docs.
+
+### OpenAPI/Swagger
+
+The OpenAPI specification file `openapi3.yaml` can be rendered using the Swagger UI. The specification is generated by Spring REST Docs.
+
+### Postman
+
+The Postman collection file `postman-collection.json` contains the endpoints and examples of requests and responses. The collection is generated by Spring REST Docs.
+
+## Observability
+
+The application provides observability features using Spring Boot Actuator and Micrometer.
+
+- Actuator: `/api/v1/actuator`
+- Prometheus: `/api/v1/actuator/prometheus`
+
+```yaml
+# application.yaml
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,prometheus"
+    jmx:
+      exposure:
+        exclude: "*"
+```
+
+## Sample Data
+
+The sample data is from [MySQL Sakila sample database](https://dev.mysql.com/doc/sakila/en/). It is a relational database model for a DVD rental store which contains data related to films, actors, customers, rentals, and more. The database also serves views, stored procedures, and triggers.

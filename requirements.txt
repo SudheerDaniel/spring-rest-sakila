@@ -1,7 +1,0 @@
-langchain>=1.3
-langchain-anthropic>=1.4
-langchain-text-splitters
-anthropic
-tiktoken
-pydantic>=2
-python-dotenv
