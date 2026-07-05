@@ -1,21 +1,21 @@
 {
-  "project_overview": {
-    "purpose": "[MOCK] Placeholder project purpose. Run with --mock disabled and a valid ANTHROPIC_API_KEY for real output.",
-    "architecture_summary": "[MOCK] Placeholder architecture summary.",
-    "key_modules": [
+  "projectOverview": {
+    "purpose": "[MOCK] Placeholder project purpose. Re-run without --mock and with a valid ANTHROPIC_API_KEY for real output.",
+    "architectureSummary": "[MOCK] Placeholder architecture summary.",
+    "keyModules": [
       "[MOCK] module summaries omitted"
     ],
-    "notable_technologies": [
+    "notableTechnologies": [
       "[MOCK] technologies omitted"
     ]
   },
   "files": [
     {
-      "file_path": "src/main/java/com/example/app/SpringRestSakilaApplication.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/SpringRestSakilaApplication.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -23,14 +23,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/Category.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/Category.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -38,14 +38,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/Country.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/Country.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -53,14 +53,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/ErrorCode.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/ErrorCode.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -68,14 +68,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/ErrorLevel.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/ErrorLevel.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -83,14 +83,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/FilmRating.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/FilmRating.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -98,14 +98,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/HalRelation.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/HalRelation.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -113,14 +113,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/Language.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/Language.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -128,14 +128,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/constant/SpecialFeature.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/constant/SpecialFeature.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -143,14 +143,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/dto/ErrorResponseDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/dto/ErrorResponseDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -158,14 +158,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/dto/FullName.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/dto/FullName.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -173,14 +173,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/dto/NullCheckable.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/dto/NullCheckable.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -188,14 +188,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/dto/Updatable.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/dto/Updatable.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -203,14 +203,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/entity/FullName.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/entity/FullName.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -218,14 +218,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/mapper/DoMapping.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/mapper/DoMapping.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -233,14 +233,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/mapper/FullNameMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/mapper/FullNameMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -248,14 +248,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/mapper/GenericMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/mapper/GenericMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -263,14 +263,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/domain/serializer/NullToEmptyStringSerializer.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/domain/serializer/NullToEmptyStringSerializer.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -278,14 +278,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/exception/GlobalExceptionHandler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/exception/GlobalExceptionHandler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -293,14 +293,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/exception/ResourceNotAvailableException.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/exception/ResourceNotAvailableException.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -308,14 +308,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/exception/ResourceNotFoundException.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/exception/ResourceNotFoundException.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -323,14 +323,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/filter/MdcLoggingFilter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/filter/MdcLoggingFilter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -338,14 +338,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/security/JwtAuthenticationFilter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/security/JwtAuthenticationFilter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -353,14 +353,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/security/JwtAuthenticationProvider.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/security/JwtAuthenticationProvider.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -368,14 +368,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/security/JwtAuthenticationToken.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/security/JwtAuthenticationToken.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -383,14 +383,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/security/JwtTokenProvider.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/security/JwtTokenProvider.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -398,14 +398,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/common/util/ExpressionUtils.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/common/util/ExpressionUtils.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -413,14 +413,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/config/AuthConfig.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/config/AuthConfig.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -428,14 +428,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/config/LoggingFilterConfig.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/config/LoggingFilterConfig.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -443,14 +443,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/config/PersistenceConfig.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/config/PersistenceConfig.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -458,14 +458,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/config/RedisConfig.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/config/RedisConfig.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -473,14 +473,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/config/SecurityFilterConfig.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/config/SecurityFilterConfig.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -488,14 +488,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/controller/LoginController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/controller/LoginController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -503,14 +503,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/domain/converter/UserRoleConverter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/domain/converter/UserRoleConverter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -518,14 +518,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/domain/dto/AuthorityDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/domain/dto/AuthorityDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -533,14 +533,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/domain/entity/AuthorityEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/domain/entity/AuthorityEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -548,14 +548,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/domain/vo/UserRole.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/domain/vo/UserRole.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -563,14 +563,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/repository/AuthorityRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/repository/AuthorityRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -578,14 +578,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/service/JpaUserDetailsService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/service/JpaUserDetailsService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -593,14 +593,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/auth/service/SecurityService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/auth/service/SecurityService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -608,14 +608,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/assembler/ActorDetailsRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/assembler/ActorDetailsRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -623,14 +623,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/assembler/ActorRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/assembler/ActorRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -638,14 +638,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/assembler/FilmDetailsRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/assembler/FilmDetailsRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -653,14 +653,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/assembler/FilmRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/assembler/FilmRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -668,14 +668,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/controller/ActorController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/controller/ActorController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -683,14 +683,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/controller/FilmController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/controller/FilmController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -698,14 +698,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/converter/CategoryConverter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/converter/CategoryConverter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -713,14 +713,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/converter/FilmRatingConverter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/converter/FilmRatingConverter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -728,14 +728,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/converter/SpecialFeatureConverter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/converter/SpecialFeatureConverter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -743,14 +743,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/dto/ActorDetailsDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/dto/ActorDetailsDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -758,14 +758,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/dto/ActorDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/dto/ActorDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -773,14 +773,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/dto/CategoryDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/dto/CategoryDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -788,14 +788,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDetailsDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDetailsDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -803,14 +803,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -818,14 +818,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/ActorEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/ActorEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -833,14 +833,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/CategoryEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/CategoryEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -848,14 +848,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmActorEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/FilmActorEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -863,14 +863,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmActorEntityPK.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/FilmActorEntityPK.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -878,14 +878,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmCategoryEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/FilmCategoryEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -893,14 +893,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmCategoryEntityPK.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/FilmCategoryEntityPK.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -908,14 +908,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/FilmEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -923,14 +923,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmTextEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/entity/FilmTextEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -938,14 +938,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/mapper/ActorMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/mapper/ActorMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -953,14 +953,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/mapper/FilmMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/mapper/FilmMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -968,14 +968,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/domain/serializer/LocalDateYearSerializer.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/domain/serializer/LocalDateYearSerializer.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -983,14 +983,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/ActorRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/ActorRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -998,14 +998,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/CategoryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/CategoryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1013,14 +1013,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/FilmActorRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/FilmActorRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1028,14 +1028,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/FilmCategoryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/FilmCategoryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1043,14 +1043,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/FilmRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/FilmRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1058,14 +1058,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/FilmTextRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/FilmTextRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1073,14 +1073,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomActorRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomActorRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1088,14 +1088,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomActorRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomActorRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1103,14 +1103,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomCategoryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomCategoryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1118,14 +1118,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomCategoryRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomCategoryRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1133,14 +1133,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmActorRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmActorRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1148,14 +1148,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmActorRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmActorRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1163,14 +1163,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmCategoryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmCategoryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1178,14 +1178,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmCategoryRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmCategoryRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1193,14 +1193,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1208,14 +1208,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1223,14 +1223,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmTextRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmTextRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1238,14 +1238,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmTextRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmTextRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1253,14 +1253,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/repository/custom/RentalRateProjection.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/repository/custom/RentalRateProjection.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1268,14 +1268,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/service/ActorService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/service/ActorService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1283,14 +1283,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/service/ActorServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/service/ActorServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1298,14 +1298,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/service/FilmService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/service/FilmService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1313,14 +1313,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/catalog/service/FilmServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/catalog/service/FilmServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1328,14 +1328,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/assembler/CustomerDetailsRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/assembler/CustomerDetailsRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1343,14 +1343,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/assembler/CustomerRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/assembler/CustomerRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1358,14 +1358,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/controller/CustomerController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/controller/CustomerController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1373,14 +1373,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDetailsDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDetailsDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1388,14 +1388,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1403,14 +1403,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/domain/entity/CustomerEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/domain/entity/CustomerEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1418,14 +1418,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/domain/mapper/CustomerMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/domain/mapper/CustomerMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1433,14 +1433,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/repository/CustomerRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/repository/CustomerRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1448,14 +1448,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/repository/custom/CustomCustomerRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/repository/custom/CustomCustomerRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1463,14 +1463,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/repository/custom/CustomCustomerRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/repository/custom/CustomCustomerRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1478,14 +1478,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/service/CustomerService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/service/CustomerService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1493,14 +1493,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/customer/service/CustomerServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/customer/service/CustomerServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1508,14 +1508,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/assembler/AddressRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/assembler/AddressRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1523,14 +1523,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/assembler/CityRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/assembler/CityRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1538,14 +1538,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/controller/LocationController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/controller/LocationController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1553,14 +1553,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/converter/CountryConverter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/converter/CountryConverter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1568,14 +1568,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/converter/GeometryConverter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/converter/GeometryConverter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1583,14 +1583,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/converter/LanguageConverter.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/converter/LanguageConverter.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1598,14 +1598,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/dto/AddressDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/dto/AddressDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1613,14 +1613,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/dto/CityDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/dto/CityDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1628,14 +1628,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/dto/CountryDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/dto/CountryDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1643,14 +1643,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/dto/LanguageDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/dto/LanguageDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1658,14 +1658,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/entity/AddressEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/entity/AddressEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1673,14 +1673,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/entity/CityEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/entity/CityEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1688,14 +1688,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/entity/CountryEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/entity/CountryEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1703,14 +1703,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/entity/LanguageEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/entity/LanguageEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1718,14 +1718,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/mapper/AddressMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/mapper/AddressMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1733,14 +1733,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/domain/mapper/CityMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/domain/mapper/CityMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1748,14 +1748,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/AddressRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/AddressRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1763,14 +1763,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/CityRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/CityRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1778,14 +1778,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/CountryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/CountryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1793,14 +1793,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/LanguageRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/LanguageRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1808,14 +1808,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomAddressRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomAddressRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1823,14 +1823,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomAddressRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomAddressRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1838,14 +1838,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomCityRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomCityRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1853,14 +1853,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomCityRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomCityRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1868,14 +1868,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomCountryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomCountryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1883,14 +1883,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomCountryRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomCountryRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1898,14 +1898,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomLanguageRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomLanguageRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1913,14 +1913,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/repository/custom/CustomLanguageRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/repository/custom/CustomLanguageRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1928,14 +1928,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/service/LocationService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/service/LocationService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1943,14 +1943,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/location/service/LocationServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/location/service/LocationServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1958,14 +1958,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/assembler/PaymentRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/assembler/PaymentRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1973,14 +1973,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/controller/PaymentController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/controller/PaymentController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -1988,14 +1988,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/domain/dto/PaymentDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/domain/dto/PaymentDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2003,14 +2003,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/domain/entity/PaymentEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/domain/entity/PaymentEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2018,14 +2018,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/domain/mapper/PaymentMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/domain/mapper/PaymentMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2033,14 +2033,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/repository/PaymentRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/repository/PaymentRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2048,14 +2048,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/repository/custom/CustomPaymentRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/repository/custom/CustomPaymentRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2063,14 +2063,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/repository/custom/CustomPaymentRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/repository/custom/CustomPaymentRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2078,14 +2078,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/service/PaymentService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/service/PaymentService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2093,14 +2093,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/payment/service/PaymentServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/payment/service/PaymentServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2108,14 +2108,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/assembler/RentalRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/assembler/RentalRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2123,14 +2123,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/controller/RentalController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/controller/RentalController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2138,14 +2138,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/domain/dto/RentalDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/domain/dto/RentalDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2153,14 +2153,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/domain/entity/RentalEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/domain/entity/RentalEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2168,14 +2168,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/domain/mapper/RentalMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/domain/mapper/RentalMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2183,14 +2183,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/domain/vo/RentalStatus.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/domain/vo/RentalStatus.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2198,14 +2198,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/repository/RentalRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/repository/RentalRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2213,14 +2213,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/repository/custom/CustomRentalRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/repository/custom/CustomRentalRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2228,14 +2228,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/repository/custom/CustomRentalRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/repository/custom/CustomRentalRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2243,14 +2243,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/service/RentalService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/service/RentalService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2258,14 +2258,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/rental/service/RentalServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/rental/service/RentalServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2273,14 +2273,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/assembler/StaffDetailsRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/assembler/StaffDetailsRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2288,14 +2288,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/assembler/StaffRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/assembler/StaffRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2303,14 +2303,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/controller/StaffController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/controller/StaffController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2318,14 +2318,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/domain/dto/StaffDetailsDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/domain/dto/StaffDetailsDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2333,14 +2333,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/domain/dto/StaffDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/domain/dto/StaffDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2348,14 +2348,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/domain/entity/StaffEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/domain/entity/StaffEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2363,14 +2363,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/domain/mapper/StaffMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/domain/mapper/StaffMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2378,14 +2378,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/repository/StaffRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/repository/StaffRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2393,14 +2393,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/repository/custom/CustomStaffRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/repository/custom/CustomStaffRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2408,14 +2408,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/repository/custom/CustomStaffRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/repository/custom/CustomStaffRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2423,14 +2423,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/service/StaffService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/service/StaffService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2438,14 +2438,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/staff/service/StaffServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/staff/service/StaffServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2453,14 +2453,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/assembler/CategorySalesRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/assembler/CategorySalesRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2468,14 +2468,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/assembler/StoreDetailsRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/assembler/StoreDetailsRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2483,14 +2483,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/assembler/StoreRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/assembler/StoreRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2498,14 +2498,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/assembler/StoreSalesRepresentationModelAssembler.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/assembler/StoreSalesRepresentationModelAssembler.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2513,14 +2513,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/controller/ReportController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/controller/ReportController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2528,14 +2528,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/controller/StoreController.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/controller/StoreController.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2543,14 +2543,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/dto/CategorySalesDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/dto/CategorySalesDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2558,14 +2558,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/dto/InventoryDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/dto/InventoryDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2573,14 +2573,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/dto/StoreDetailsDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/dto/StoreDetailsDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2588,14 +2588,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/dto/StoreDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/dto/StoreDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2603,14 +2603,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/dto/StoreSalesDto.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/dto/StoreSalesDto.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2618,14 +2618,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/entity/InventoryEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/entity/InventoryEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2633,14 +2633,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/entity/StoreEntity.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/entity/StoreEntity.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2648,14 +2648,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/mapper/InventoryMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/mapper/InventoryMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2663,14 +2663,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/domain/mapper/StoreMapper.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/domain/mapper/StoreMapper.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2678,14 +2678,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/repository/InventoryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/repository/InventoryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2693,14 +2693,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/repository/StoreRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/repository/StoreRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2708,14 +2708,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/repository/custom/CustomInventoryRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/repository/custom/CustomInventoryRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2723,14 +2723,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/repository/custom/CustomInventoryRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/repository/custom/CustomInventoryRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2738,14 +2738,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/repository/custom/CustomStoreRepository.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/repository/custom/CustomStoreRepository.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2753,14 +2753,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/repository/custom/CustomStoreRepositoryImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/repository/custom/CustomStoreRepositoryImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2768,14 +2768,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/service/ReportService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/service/ReportService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2783,14 +2783,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/service/ReportServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/service/ReportServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2798,14 +2798,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/service/StoreService.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/service/StoreService.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2813,14 +2813,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/main/java/com/example/app/services/store/service/StoreServiceImpl.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/main/java/com/example/app/services/store/service/StoreServiceImpl.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2828,14 +2828,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/config/PropertyConfig.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/config/PropertyConfig.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2843,14 +2843,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/config/RestDocsControllerSupport.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/config/RestDocsControllerSupport.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2858,14 +2858,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/config/properties/AppUriPropConfig.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/config/properties/AppUriPropConfig.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2873,14 +2873,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/catalog/controller/ActorControllerTest.java  (part 1/3)",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/catalog/controller/ActorControllerTest.java  (part 1/3)",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2888,14 +2888,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/catalog/controller/ActorControllerTest.java  (part 2/3)",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/catalog/controller/ActorControllerTest.java  (part 2/3)",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2903,14 +2903,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/catalog/controller/ActorControllerTest.java  (part 3/3)",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/catalog/controller/ActorControllerTest.java  (part 3/3)",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2918,14 +2918,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/catalog/domain/converter/CategoryConverterTest.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/catalog/domain/converter/CategoryConverterTest.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2933,14 +2933,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/catalog/domain/converter/FilmRatingConverterTest.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/catalog/domain/converter/FilmRatingConverterTest.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2948,14 +2948,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/catalog/domain/converter/SpecialFeatureConverterTest.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/catalog/domain/converter/SpecialFeatureConverterTest.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2963,14 +2963,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/location/domain/converter/CountryConverterTest.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/location/domain/converter/CountryConverterTest.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2978,14 +2978,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/services/location/domain/converter/LanguageConverterTest.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/services/location/domain/converter/LanguageConverterTest.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -2993,14 +2993,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/util/ConstrainedFieldAttribute.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/util/ConstrainedFieldAttribute.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -3008,14 +3008,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/util/ConstrainedFieldDocumentation.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/util/ConstrainedFieldDocumentation.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -3023,14 +3023,14 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     },
     {
-      "file_path": "src/test/java/com/example/app/util/OpenApiDescriptorTransformer.java",
-      "package": null,
-      "class_names": [],
+      "filePath": "src/test/java/com/example/app/util/OpenApiDescriptorTransformer.java",
+      "packageName": null,
+      "classNames": [],
       "responsibility": "[MOCK] Placeholder responsibility summary generated without calling an LLM.",
-      "key_methods": [
+      "keyMethods": [
         {
           "name": "exampleMethod",
           "signature": "void exampleMethod()",
@@ -3038,15 +3038,15 @@
         }
       ],
       "complexity": "Medium",
-      "complexity_notes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
+      "complexityNotes": "[MOCK] Placeholder complexity note; run with a real API key for actual analysis."
     }
   ],
   "metadata": {
     "model": "mock",
-    "source_repo_path": "/home/claude/project/spring-rest-sakila-main",
-    "num_source_files": 200,
-    "num_chunks": 20,
-    "max_tokens_per_chunk": 6000,
-    "generated_at_utc": "2026-07-04T20:32:09.162235Z"
+    "sourceRepoPath": "/home/claude/project/spring-rest-sakila-main",
+    "numSourceFiles": 200,
+    "numChunks": 20,
+    "maxTokensPerChunk": 6000,
+    "generatedAtUtc": "2026-07-05T09:04:58.582884395Z"
   }
 }

@@ -1,0 +1,96 @@
+[33m9cd2e70[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m some important
+[33m54ed14f[m Revert "First commit"
+[33m5d44b29[m First commit
+[33m62873f7[m update plugins
+[33mf76049b[m update editorconfig
+[33m6501bdb[m refactor code
+[33mcb3be1f[m refactor code
+[33m327788e[m refactor code
+[33mad76e64[m update entities
+[33m8dcd8cc[m add editorconfig
+[33m464f94f[m refactor code
+[33mb59cc89[m update filter option
+[33m47cbdf6[m refactor code
+[33m2977083[m update serializer
+[33m1817f7e[m update fields
+[33m861c03c[m update exception handler
+[33mf8395c1[m update jpa config
+[33m730cb0a[m update cache config
+[33med6273b[m update index
+[33mce8276f[m refactor code
+[33m0643ab1[m update constants
+[33m1c21b01[m add sql
+[33m0d852a8[m fix error
+[33m4320e04[m move files
+[33m37f780a[m refactor code
+[33m6ce90f0[m update auth
+[33med63416[m update exception
+[33m5000ac2[m update exception
+[33m384db55[m update app
+[33mb27ade1[m add logging filter
+[33mc236514[m update readme
+[33m8293305[m update repositories
+[33m66e4c99[m update app
+[33mb911d84[m update app
+[33mcf21120[m update readme
+[33m38a4eb7[m fix error
+[33m038638f[m fix error
+[33m469a17c[m update app
+[33m8a5428d[m update build task
+[33m5fab9e8[m update readme
+[33mf812216[m refactor code
+[33m4f7403a[m update readme
+[33m3711f6f[m update restdocs and openapi
+[33m582f8ad[m rename files
+[33ma1f1a85[m update app
+[33me5746b4[m update request models
+[33md7456bf[m update models
+[33mbe47101[m update fullname class
+[33m5dcabed[m update rest docs
+[33m20a2f50[m update readme
+[33m65991d0[m add github actions
+[33m7cde0b4[m update management endpoints
+[33ma62d103[m update readme
+[33m39d7cc7[m update gradle build
+[33m0b93f48[m update docs
+[33mb107717[m update restdocs
+[33m0389dd9[m refactor code
+[33mcdc49b0[m update controller tests
+[33m8e18a0b[m update app
+[33mde09be3[m update app
+[33m23bb4f5[m fix error
+[33m562742a[m refactor code
+[33m6150257[m move files
+[33m1ada32d[m update transactions for resource deletion
+[33m385099a[m update transaction annotations
+[33m962b47e[m update mapping
+[33m58e0838[m update embedded types
+[33m019292b[m refactor code
+[33m9f24268[m update access level of default constructor
+[33mb91110f[m add validation to entity classes
+[33m40d33bf[m update dependencies
+[33m2f46c00[m update readme
+[33m3c9dc13[m fix error
+[33mab7110c[m update mappers
+[33md43d209[m update entities
+[33mf3b0cba[m update app
+[33m6638442[m update readme
+[33m72298e9[m refactor code
+[33m3fdabd9[m update error model
+[33mc7e5094[m refactor code
+[33m6610aa6[m refactor code
+[33mef39cb3[m add tests
+[33maaa68ab[m update app
+[33m5fff04d[m update restdocs
+[33m144c815[m refactor code
+[33mc5274ff[m refactor code
+[33m338185e[m update hateoas links
+[33mabd4509[m update exception handler
+[33me1a8e8a[m refactor code
+[33m35bf4eb[m update request models
+[33m1bfb752[m update exception handler
+[33mf16ad2a[m refactor code
+[33md848613[m update request models
+[33mf143c30[m add app
+[33md71e30b[m Update README.md
+[33maa577f7[m Initial commit
