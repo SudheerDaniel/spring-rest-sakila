@@ -1,232 +1,227 @@
-# Codebase Knowledge Extractor (Java + LangChain4j)
+# Codebase Knowledge Extractor
 
-A Java program that reads a codebase, feeds it to an LLM in token-safe chunks,
-and produces a structured JSON representation of the extracted knowledge:
-project purpose, architecture, and per-file breakdowns of responsibilities,
-key methods, and complexity.
+A codebase analysis tool that reads a Java (or other language) codebase,
+feeds it to Claude in token-safe chunks, and produces a structured JSON
+representation of the extracted knowledge: project purpose, architecture,
+and per-file breakdowns of responsibilities, key methods, and complexity.
 
 Built and tested against the assignment's target codebase:
-[`codejsha/spring-rest-sakila`](https://github.com/codejsha/spring-rest-sakila)
-(a Spring Boot REST API over the Sakila sample database).
+[codejsha/spring-rest-sakila](https://github.com/codejsha/spring-rest-sakila)
+(a Spring Boot REST API over the Sakila sample database, ~200 source files).
 
-This is a Java port of an original Python/LangChain solution. The design,
-map-reduce approach, and output schema are unchanged — only the
-implementation language and tooling shifted to **LangChain4j** (the Java
-LangChain ecosystem), since the target codebase and the interviewing team's
-stack are both Java.
+**Two implementations are provided in this repo**, sharing the same
+map-reduce design and output schema:
 
-## Assignment requirements → how this meets them
+| | Language | LLM library | Status |
+|---|---|---|---|
+| `main.py` + `src/*.py` | Python | LangChain / LangChain-Anthropic | **Fully built, run, and verified** against the real repo with a live API key |
+| `src/main/java/.../codebaseanalyzer/` | Java | LangChain4j | Scaffolded with the same architecture; not yet build-verified (see [Java section](#java-implementation) below) |
 
-| Requirement | Where it's handled |
-|---|---|
-| Read/process the codebase efficiently | `loader/CodebaseLoader.java` — walks the repo, collects only `.java`/`.kt` files, prunes build artifacts (`build/`, `.git/`, `.gradle/`, `target/`) before descending into them |
-| Feed code to the LLM within token limits | `chunker/CodebaseChunker.java`, `chunker/TokenCounter.java` — real token counts via jtokkit, greedy packing up to a configurable budget, oversized files split further |
-| Suitable LLM + LangChain-family library | Claude (`claude-sonnet-5`) via **LangChain4j**'s `AiServices` (`llm/AnthropicExtractor.java`) |
-| Structured, well-organized, machine-readable JSON | Schema-first extraction: POJOs with `@Description` (`schema/*.java`), no manual parsing of free-text output |
-| Project overview, key methods, complexity | `schema/ProjectOverview.java`, `schema/FileAnalysis.java`, `schema/MethodInfo.java` |
-| Source code deliverable | `src/main/java/...` |
-| JSON output deliverable | `output/analysis.json` |
-| README covering approach, methodology, best practices, assumptions/limitations | This file |
+The Python version is the primary, working deliverable. The Java version
+mirrors its design for teams/interviewers whose stack is Java.
 
-## Approach
+---
 
-Same map-reduce design as the Python version, chosen specifically to respect
-LLM token limits without sacrificing a project-level understanding:
+## Python implementation (primary, verified)
 
-```
-load files -> build token-bounded chunks -> [MAP] per-chunk LLM extraction -> [REDUCE] LLM synthesis of overview -> JSON
-```
-
-1. **Load** (`loader/CodebaseLoader.java`) — walks the repo with
-   `Files.walkFileTree`, collecting `.java`/`.kt` source files and pruning
-   build artifacts *before* descending into them, not just filtering
-   afterward.
-
-2. **Chunk** (`chunker/CodebaseChunker.java`, `chunker/TokenCounter.java`) —
-   counts tokens per file using **jtokkit** (`cl100k_base` encoding), the
-   Java equivalent of Python's `tiktoken`, used as the same practical proxy
-   for Claude's tokenizer (Anthropic does not publish a public one). Files
-   are greedily packed together up to a configurable `maxTokensPerChunk`
-   (default 6000). Any single file that alone exceeds the budget is split
-   further, preferring to break on blank lines / closing-brace lines (a
-   lightweight stand-in for class/method boundaries) — LangChain4j does not
-   ship a Java-language-aware splitter equivalent to Python LangChain's
-   `RecursiveCharacterTextSplitter.from_language(Language.JAVA)`, so this is
-   a deliberate, documented substitute, with a hard character-offset split
-   as a final safety net for any piece that still comes out oversized.
-
-3. **Extract (MAP)** (`llm/AnthropicExtractor.java`) — each chunk is sent to
-   Claude via **LangChain4j's `AiServices`**, which binds the model's
-   response directly to a plain Java POJO (`schema/ChunkAnalysis.java`,
-   annotated with `@Description` per field) — the Java equivalent of the
-   Python version's `chat_model.with_structured_output(PydanticModel)`. No
-   manual JSON parsing of free-text LLM output.
-
-4. **Synthesize (REDUCE)** (`analyzer/CodebaseAnalyzer.java`) — the (much
-   smaller) list of per-file responsibility summaries from step 3 is
-   combined into one prompt and sent for a **second** LLM call that
-   produces the project-level overview. This keeps the "big picture" call
-   small regardless of codebase size, since it only ever sees condensed
-   summaries.
-
-5. **Output** (`Main.java`) — the final `CodebaseKnowledge` object (overview
-   + all per-file analyses + run metadata) is serialized to one JSON file
-   with Jackson.
-
-## Project layout
-
-```
-codebase-analyzer-java/
-├── pom.xml
-├── .env.example
-├── src/main/java/com/example/codebaseanalyzer/
-│   ├── Main.java                  # CLI entrypoint
-│   ├── model/                     # SourceFile, Chunk, ChunkPart
-│   ├── schema/                    # Pydantic-equivalent output schema (POJOs + @Description)
-│   ├── loader/CodebaseLoader.java
-│   ├── chunker/                   # TokenCounter (jtokkit) + CodebaseChunker
-│   ├── llm/                       # AiServices interfaces, AnthropicExtractor, MockExtractor
-│   └── analyzer/CodebaseAnalyzer.java   # map-reduce orchestration
-├── src/test/java/com/example/codebaseanalyzer/
-│   └── CodebasePipelineTest.java   # JUnit 5 tests for loader + chunker (no network/LLM needed)
-└── output/
-    └── analysis.json               # sample structured output (see note below)
-```
-
-## Running it
+### Quick start
 
 ```bash
-mvn clean package
+pip install -r requirements.txt
 
-# Real run (requires an Anthropic API key)
+git clone https://github.com/codejsha/spring-rest-sakila.git sakila-repo
+
+export ANTHROPIC_API_KEY=sk-ant-...      # macOS/Linux
+# or on Windows PowerShell:
+# $env:ANTHROPIC_API_KEY="sk-ant-..."
+
+python main.py --repo-path sakila-repo --output output/analysis.json
+```
+
+On Windows, if `python` isn't recognized, use `py` instead (the Python
+launcher installed alongside modern Python-for-Windows installers):
+
+```powershell
+py main.py --repo-path sakila-repo --output output\analysis.json
+```
+
+### Run modes
+
+**Real run** (calls Claude, produces genuine analysis; ~45-50 min for the
+full 200-file repo based on measured timing):
+```bash
+python main.py --repo-path sakila-repo --output output/analysis.json
+```
+
+**Mock run** (no API key needed, no cost, runs in seconds — proves the full
+pipeline mechanics: loading → chunking → extraction → reconciliation →
+JSON output — using a deterministic offline stand-in instead of a real
+LLM call):
+```bash
+python main.py --repo-path sakila-repo --output output/mock_analysis.json --mock
+```
+
+**Smoke test** (real API calls, but only the first N chunks — fast sanity
+check before committing to a full run):
+```bash
+python main.py --repo-path sakila-repo --output output/smoke_test.json --limit-chunks 2
+```
+
+**Verbose logging** (add `-v` to any of the above for debug-level output):
+```bash
+python main.py --repo-path sakila-repo --output output/analysis.json -v
+```
+
+### Useful flags
+
+| Flag | Default | Description |
+|---|---|---|
+| `--repo-path` | *(required)* | Path to the codebase to analyze |
+| `--output` | `output/analysis.json` | Where to write the structured JSON |
+| `--model` | `claude-sonnet-5` | Anthropic model name |
+| `--max-tokens-per-chunk` | `6000` | Token budget per LLM call |
+| `--limit-chunks` | *(none)* | Only process the first N chunks |
+| `--mock` | off | Run offline with a mock extractor, no API key needed |
+| `-v`, `--verbose` | off | Enable debug logging |
+
+### Verifying output
+
+```bash
+python -c "
+import json
+d = json.load(open('output/analysis.json'))
+print('source files:', d['metadata']['num_source_files'])
+print('unique output files:', len(set(f['file_path'] for f in d['files'])))
+print('recovered via reconciliation:', d['metadata']['files_recovered_via_reconciliation'])
+print('still unrecoverable:', d['metadata']['files_unrecoverable'])
+"
+```
+
+### Approach
+
+Map-reduce over the codebase, chosen specifically to respect LLM token
+limits without sacrificing a project-level understanding:
+
+```
+load files -> pack into token-bounded chunks -> [MAP] per-chunk LLM extraction
+  -> [RECONCILE] verify + recover any files a chunk dropped
+  -> [REDUCE] LLM synthesis of project overview -> JSON
+```
+
+1. **Load** (`src/loader.py`) — walks the repo, collects `.java`/`.kt`
+   source files, prunes build artifacts (`build/`, `.git/`, `.gradle/`,
+   `target/`, etc.) before descending into them.
+2. **Chunk** (`src/chunker.py`) — counts tokens per file (via `tiktoken`'s
+   `cl100k_base` encoding, with a chars-per-token fallback if the encoding
+   can't be downloaded), then **greedily packs multiple small files
+   together** into a single chunk up to `max_tokens_per_chunk` (default
+   6000), to minimize the number of LLM calls and the repeated
+   system-prompt/schema overhead each call carries. Any single file that
+   alone exceeds the budget is split further with a language-aware
+   splitter, falling back to a hard character-offset split as a last resort.
+3. **Extract — MAP** (`src/llm_client.py`) — each chunk is sent to Claude
+   via LangChain's `ChatAnthropic(...).with_structured_output(...)`, which
+   binds the model's response directly to a Pydantic schema
+   (`ChunkAnalysis`/`FileAnalysis`) — no manual JSON parsing of free-text
+   output.
+4. **Reconcile** (`src/analyzer.py` — `reconcile_missing_files()`) — **this
+   step exists because of a real, measured bug**: when many small,
+   structurally similar files are packed into one chunk, the model does
+   not always enumerate every file it was shown. In testing against the
+   full 200-file repo, initial per-chunk requests returned complete
+   results 4 times out of 15 chunks and returned **zero files matched** on
+   the other 11 — an all-or-nothing pattern, not a gradual drop-off. After
+   every chunk response, the set of file paths actually returned is
+   diffed against the set of file paths that were sent; any gap is
+   re-submitted as its own single-file mini-chunk (removing the model's
+   opportunity to skip anything), retried up to twice. In the full
+   verified run, this recovered all 145 initially-missing files, reaching
+   200/200 coverage with zero unrecoverable files.
+5. **Synthesize — REDUCE** (`src/analyzer.py`) — the (much smaller) list
+   of per-file summaries is combined into one additional LLM call that
+   produces the project-level overview, so this step's cost stays roughly
+   constant regardless of codebase size.
+6. **Output** (`main.py`) — the final `CodebaseKnowledge` object (overview
+   + all per-file analyses + run metadata, including reconciliation stats)
+   is serialized to one JSON file via Jackson-equivalent Python `json`
+   serialization.
+
+### Known limitations
+
+- **Reconciliation adds real runtime cost.** In the verified run, 145 of
+  200 files needed individual reconciliation calls, extending total
+  runtime from an expected ~15 minutes (with clean chunk-level success) to
+  ~50 minutes. The most likely root cause is `max_tokens` on the
+  underlying `ChatAnthropic` call being too small for a chunk containing
+  15-25 files' worth of structured output — raising it is the more direct
+  fix; reconciliation should be a rare safety net, not the primary
+  correctness mechanism, once that's corrected.
+- Reconciliation calls are currently sequential, not parallelized — a
+  straightforward next improvement (a thread pool, mirroring how the
+  per-file architecture below parallelizes calls) would meaningfully cut
+  the reconciliation phase's wall-clock time.
+- Token counting via `tiktoken` is an approximation — Anthropic doesn't
+  publish a public tokenizer, so `cl100k_base` (OpenAI's encoding) is used
+  as a conservative, over-counting proxy.
+- Only `.java`/`.kt` files are treated as source by default (configurable
+  in `loader.py`).
+- No caching: re-running re-analyzes every file, even unchanged ones.
+
+---
+
+## Java implementation
+
+A parallel implementation exists under
+`src/main/java/com/example/codebaseanalyzer/`, mirroring the Python
+design 1:1 (`loader/`, `chunker/`, `llm/`, `model/`, `schema/`,
+`analyzer/`, plus a `Main.java` CLI entrypoint with the same flags,
+including `--mock`), using **LangChain4j** in place of Python LangChain.
+
+**Status, stated plainly**: this was scaffolded to demonstrate architectural
+parity with the Python version, but has not yet been verified to compile
+and run end-to-end in this environment — the Gradle build in particular
+needs the LangChain4j dependency added to `build.gradle.kts` /
+`gradle/libs.versions.toml` (not yet present), and the Gradle wrapper jar
+needs to be restored if missing. Treat this as a design reference and a
+starting point, not a tested deliverable, until those are resolved and a
+real `./gradlew build` / `mvn clean package` succeeds.
+
+```bash
+# once the build is fixed:
+./gradlew build
 export ANTHROPIC_API_KEY=sk-ant-...
-java -jar target/codebase-analyzer.jar --repo-path /path/to/spring-rest-sakila --output output/analysis.json
+java -jar build/libs/codebase-analyzer.jar --repo-path sakila-repo --output output/analysis.json
 
-# Offline smoke test / demo of the pipeline mechanics, no API key needed
-java -jar target/codebase-analyzer.jar --repo-path /path/to/spring-rest-sakila --mock --output output/analysis_mock.json
-
-# Unit tests (no network/API key needed)
-mvn test
+# offline/mock mode, once built:
+java -jar build/libs/codebase-analyzer.jar --repo-path sakila-repo --mock --output output/analysis_mock.json
 ```
 
-Useful flags: `--model` (default `claude-sonnet-5`), `--max-tokens-per-chunk`
-(default `6000`), `--limit-chunks N` (process only the first N chunks, handy
-for a quick smoke test on a large repo), `-v`/`--verbose` for debug logging.
-
-## Output schema
-
-```jsonc
-{
-  "projectOverview": {
-    "purpose": "...",
-    "architectureSummary": "...",
-    "keyModules": ["..."],
-    "notableTechnologies": ["..."]
-  },
-  "files": [
-    {
-      "filePath": "src/main/java/.../FilmController.java",
-      "packageName": "com.example.app.services.catalog.controller",
-      "classNames": ["FilmController"],
-      "responsibility": "...",
-      "keyMethods": [
-        {"name": "getFilm", "signature": "ResponseEntity<FilmDto> getFilm(Long id)", "description": "..."}
-      ],
-      "complexity": "Low | Medium | High",
-      "complexityNotes": "..."
-    }
-  ],
-  "metadata": {
-    "model": "claude-sonnet-5",
-    "sourceRepoPath": "...",
-    "numSourceFiles": 202,
-    "numChunks": 20,
-    "maxTokensPerChunk": 6000,
-    "generatedAtUtc": "..."
-  }
-}
-```
-
-Field names are `camelCase` here (vs. `snake_case` in the Python version) —
-each is the idiomatic convention for its language; the shape and meaning are
-identical.
+---
 
 ## Best practices applied
 
-- **Token-safety by construction**: chunk sizes are computed from actual
-  token counts before any LLM call is made, and any oversized file is split
-  before it's ever sent.
-- **Schema-first extraction** via LangChain4j `AiServices` + `@Description`
-  POJOs, so the model's output is validated, typed JSON, not free text that
-  needs post-hoc parsing.
-- **Map-reduce**, so the approach scales to codebases much larger than a
-  single context window.
+- **Token-safety by construction**: chunk sizes are computed from real
+  token counts before any LLM call, and oversized files are split before
+  ever being sent.
+- **Schema-first extraction** via structured-output binding (Pydantic in
+  Python, POJOs + `@Description` in the Java design), so model output is
+  validated, typed JSON — never free text requiring post-hoc parsing.
+- **Map-reduce**, so the approach scales to codebases larger than a single
+  context window.
+- **Reconciliation as a measured, evidence-based fix**, not a
+  precautionary guess — added after empirically finding and diagnosing a
+  real ~72% file-drop rate in chunk-packed extraction.
 - **Deterministic runs**: files processed in sorted path order,
   `temperature=0.0` for real LLM calls.
-- **Testable without a paid API key**: `loader`/`chunker` are pure Java with
-  JUnit 5 tests, and a `MockExtractor` implementing the same `Extractor`
-  interface lets you exercise the entire pipeline (including JSON I/O)
-  offline via `--mock`.
-- **Retry with exponential backoff** around LLM calls for transient errors.
+- **Testable without API cost**: `--mock` exercises the entire pipeline
+  (loading, chunking, extraction interface, reconciliation, JSON writing)
+  offline via a deterministic stand-in extractor.
 
-## Assumptions & limitations
+## Assumptions & limitations (project-wide)
 
-- **Language scope**: only `.java`/`.kt` files are analyzed (configurable in
-  `CodebaseLoader`).
-- **Token counting is an approximation**, same caveat as the Python version:
-  jtokkit's `cl100k_base` (OpenAI's encoding) is used as a practical proxy
-  for Claude's tokenizer, since Anthropic doesn't publish one. It
-  over-counts relative to Claude's real tokenizer, which is the safe
-  direction to be wrong in.
-- **No language-aware code splitter in LangChain4j**: unlike the Python
-  LangChain ecosystem, there's no `Language.JAVA`-aware recursive splitter
-  available here, so oversized files are split on blank-line/closing-brace
-  boundaries via a small custom heuristic
-  (`CodebaseChunker.splitOversizedFile`) instead. This is documented as a
-  deliberate substitution, not an oversight.
-- **`output/analysis.json` in this deliverable was generated with `--mock`**
-  (no live LLM calls) — its `responsibility`/`keyMethods`/`complexityNotes`
-  fields are clearly-labeled placeholders. It exists to prove the full
-  pipeline (loading → chunking → extraction interface → aggregation → JSON
-  writing) runs end-to-end and produces schema-valid output. Running the
-  same command without `--mock` and with a valid `ANTHROPIC_API_KEY`
-  produces the real analysis in the identical shape.
-- **No incremental/caching support**: each run re-analyzes every file.
-- **LLM calls are sequential**, not parallelized across chunks;
-  parallelizing the map step is the most obvious next performance
-  improvement.
-
-## How this was actually verified
-
-Being transparent about what was and wasn't possible to verify in the
-environment this was built in:
-
-- **Real, compiled, and run**: `CodebaseLoader`, `CodebaseChunker`,
-  `TokenCounter`, `CodebaseAnalyzer`, `Main`, and all schema classes were
-  compiled with a real JDK 21 and **run end-to-end** against the actual
-  202-file `spring-rest-sakila` repository using `MockExtractor` —
-  producing real, valid, schema-conforming JSON (`output/analysis.json`),
-  and all 4 JUnit 5 tests were executed for real (not just written) and
-  passed.
-- **One real bug was caught and fixed this way**: the original `pom.xml`
-  had an invalid XML comment (a stray `--` sequence), which broke Maven's
-  POM parser immediately — found only because the POM was actually run
-  through Maven, not just read.
-- **One fragile design was caught and fixed proactively**: the first draft
-  of `TokenCounter.hardSplitByTokens` relied on jtokkit's
-  `encode()`/`decode()` methods and their exact (fastutil-based) return
-  types, which couldn't be confirmed without access to the real library. It
-  was rewritten to use only the simpler, stable `countTokens(String)`
-  method instead, removing that risk entirely.
-- **Not independently verifiable in this environment**: package downloads
-  for `langchain4j`, `langchain4j-anthropic`, and `jackson-databind` were
-  not available here, so the real jars could not be pulled down. To still
-  validate correctness, the code was compiled against hand-written stub
-  classes matching the exact method signatures used (`AiServices.create`,
-  `AnthropicChatModel.builder()...build()`,
-  `@SystemMessage`/`@UserMessage`/`@Description`, Jackson's
-  `ObjectMapper`), confirming there are no syntax or type errors in how
-  these APIs are used. **Run `mvn clean package` and `mvn test` yourself
-  once you have normal internet access** to get the final confirmation
-  with the real dependencies — that is the authoritative check before you
-  push or submit.
+- Complexity ratings (Low/Medium/High) are LLM judgment calls grounded in
+  the extraction prompt's stated criteria, not a computed
+  cyclomatic-complexity metric.
+- Designed and verified against Java codebases; other languages would
+  need loader/chunker extension-list changes.
+- No incremental caching — every run re-analyzes every file from scratch.
